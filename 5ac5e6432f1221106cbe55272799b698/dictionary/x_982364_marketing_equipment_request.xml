@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7a8bae8f2f1221106cbe55272799b6a6" extends="task" label="Equipment Request" max_length="40" name="x_982364_marketing_equipment_request" type="collection">
+        <element attributes="omit_sys_original=true" label="Cost" max_length="20" name="cost" type="currency"/>
+        <element attributes="encode_utf8=false" label="Marketing Event" max_length="32" name="marketing_event" reference="x_982364_marketing_marketing_event" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Needed From" max_length="40" name="needed_from" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Needed Until" max_length="40" name="needed_until" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Type" max_length="40" name="type" type="string"/>
+    </element>
+</database>

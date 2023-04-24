@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1af9664f2f1221106cbe55272799b658" label="Marketing Event" max_length="40" name="x_982364_marketing_marketing_event" type="collection">
+        <element attributes="omit_sys_original=true" label="Budget" max_length="20" name="budget" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="City" max_length="40" name="city" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Dallas" sequence="0" value="Dallas"/>
+                <element inactive_on_update="false" label="Sydney" sequence="0" value="Sydney"/>
+                <element inactive_on_update="false" label="Kansas City" sequence="1" value="Kansas City"/>
+                <element inactive_on_update="false" label="London" sequence="2" value="London"/>
+                <element inactive_on_update="false" label="San Jose" sequence="3" value="San Jose"/>
+                <element inactive_on_update="false" label="Portland" sequence="4" value="Portland"/>
+                <element inactive_on_update="false" label="Sidney" sequence="5" value="Sidney"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Number of Attendees expected" max_length="40" name="number_of_attendees_expected" type="integer"/>
+        <element display="true" label="Number of Attendees registered" max_length="40" name="number_of_attendees_registered" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Sponsor" max_length="40" name="sponsor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="omit_sys_original=true" label="Event Cost" max_length="20" name="u_currency_1" read_only="true" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Budget Remaining" max_length="20" name="u_currency_2" read_only="true" type="currency"/>
+    </element>
+</database>
